@@ -1,1 +1,33 @@
+Course 1 "Foundations of Robot Motion" - Module 1 "Introduction to Modern Robotics"
 
+NOTE: This guide/note packet uses Python not MATLAB or Mathematica
+
+Useful Links: 
+             Website - https://hades.mech.northwestern.edu/index.php/Modern_Robotics
+             Textbook - https://hades.mech.northwestern.edu/images/2/2e/MR-largefont-v2.pdf
+             GitHub - https://github.com/NxRLab/ModernRobotics
+
+How to Get MR Library:
+  1. Install Python at https://www.python.org/downloads/
+  2. Create a folder on Desktop
+  3. Open folder in powershell
+  4. Run commands:
+     - "python -m venv env" creates virtual environment
+     - "env\Scripts\activate" activates virtual environment
+     - "pip install numpy" installs numpy into the virtual environment (required for MR Library)
+     - "pip install modern_robotics" installs the MR Library into the virtual environment
+
+Using MR Library:
+  1. Install Visual Studio Code
+  2. In your folder create a .py file
+  3. run "import modern_robotics as mr" to import the library
+  4. Code...
+
+Installing CoppeliaSim:
+  1. Install CoppeliaSim EDU at https://www.coppeliarobotics.com/
+  2. Download scenes at https://hades.mech.northwestern.edu/images/3/31/CoppeliaSim_scenes-Nov2024.zip
+  3. Unzip them to your folder
+
+Note to remember: Professor Lynch uses his left hand to show the right hand rule due to the video being reversed
+
+Chapter 1 Notes:
